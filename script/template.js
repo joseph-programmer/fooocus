@@ -7,7 +7,7 @@ const BASE_SRC = `../${TARGET_DIR}/template.ipynb`;
 async function fetchModel() {
     return new Promise((resolve, reject)=>{
         // JSON 데이터를 가져올 URL
-        const url = 'https://raw.githubusercontent.com/ninjaneural/webui/master/misc/checkpoints_sdxl.json';
+        const url = 'https://raw.githubusercontent.com/joseph-programmer/webui/master/misc/checkpoints_sdxl.json';
 
         // HTTP GET 요청 보내기
         https.get(url, (response) => {
@@ -91,7 +91,7 @@ async function copy_files() {
         code = code.replaceAll('#preset_memo#', "#@markdown **<font color=blue>체크포인트 URL을 입력하면 입력한 체크포인트로 자동 변경해서 다운받아요</font>**");            
         fs.writeFileSync(`../${TARGET_DIR}/${item.ipynb}.ipynb`, code);
 
-        readme.push(`| [![Open In Colab](https://raw.githubusercontent.com/neuralninja22/colab/master/icons/colab-badge.svg)](https://colab.research.google.com/github/ninjaneural/fooocus/blob/master/${TARGET_DIR}/${item.ipynb}.ipynb) | [${item.name}](${item.model})                    | ${item.bakedVAE ? '' : '선택'} |                       | SDXL            |`)
+        readme.push(`| [![Open In Colab](https://raw.githubusercontent.com/neuralninja22/colab/master/icons/colab-badge.svg)](https://colab.research.google.com/github/joseph-programmer/fooocus/blob/master/${TARGET_DIR}/${item.ipynb}.ipynb) | [${item.name}](${item.model})                    | ${item.bakedVAE ? '' : '선택'} |                       | SDXL            |`)
     });
     list.sort((a, b) => {
         // sdmodel 값을 기준으로 정렬
@@ -130,9 +130,9 @@ async function copy_files() {
         fs.writeFileSync(`../misc/presets/${item.ipynb}.json`, defaultCode);
 
         if (item.sdmodel=='pony') {
-            readme.push(`| [![Open In Colab](https://raw.githubusercontent.com/neuralninja22/colab/master/icons/colab-badge-install.svg)](https://colab.research.google.com/github/ninjaneural/fooocus/blob/master/${TARGET_DIR}/${item.ipynb}.ipynb) | [${item.name}](${item.model})                    | ${item.bakedVAE ? '' : '선택'} | ${item.type}                      | Pony           |`)
+            readme.push(`| [![Open In Colab](https://raw.githubusercontent.com/neuralninja22/colab/master/icons/colab-badge-install.svg)](https://colab.research.google.com/github/joseph-programmer/fooocus/blob/master/${TARGET_DIR}/${item.ipynb}.ipynb) | [${item.name}](${item.model})                    | ${item.bakedVAE ? '' : '선택'} | ${item.type}                      | Pony           |`)
         } else {
-            readme.push(`| [![Open In Colab](https://raw.githubusercontent.com/neuralninja22/colab/master/icons/colab-badge-nightly.svg)](https://colab.research.google.com/github/ninjaneural/fooocus/blob/master/${TARGET_DIR}/${item.ipynb}.ipynb) | [${item.name}](${item.model})                    | ${item.bakedVAE ? '' : '선택'} | ${item.type}                      | SDXL           |`)
+            readme.push(`| [![Open In Colab](https://raw.githubusercontent.com/neuralninja22/colab/master/icons/colab-badge-nightly.svg)](https://colab.research.google.com/github/joseph-programmer/fooocus/blob/master/${TARGET_DIR}/${item.ipynb}.ipynb) | [${item.name}](${item.model})                    | ${item.bakedVAE ? '' : '선택'} | ${item.type}                      | SDXL           |`)
         }
     });
 
