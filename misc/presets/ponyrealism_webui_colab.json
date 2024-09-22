@@ -40,13 +40,13 @@
     },
     "embeddings_downloads": {},
     "lora_downloads":             {
-        "Concept_Art_Twilight.safetensors": "https://civitai.com/api/download/models/330475?type=Model&format=SafeTensor",
-        "Concept_Art_Eclipse.safetensors": "https://civitai.com/api/download/models/398292?type=Model&format=SafeTensor",
-        "Gothic_Art.safetensors": "https://civitai.com/api/download/models/324652?type=Model&format=SafeTensor",
-        "Gothic_Art2.safetensors": "https://civitai.com/api/download/models/382235?type=Model&format=SafeTensor",
-        "Line_Art.safetensors": "https://civitai.com/api/download/models/302106?type=Model&format=SafeTensor",
-        "Smooth.safetensors": "https://civitai.com/api/download/models/297988?type=Model&format=SafeTensor",
-        "Smooth_Anime.safetensors": "https://civitai.com/api/download/models/298238?type=Model&format=SafeTensor",
+        "Expressive_H-000001.safetensors": "https://civitai.com/api/download/models/382152?type=Model&format=SafeTensor",
+        "incase_style_v3-1_ponyxl_ilff.safetensors": "https://civitai.com/api/download/models/436219?type=Model&format=SafeTensor",
+        "add-detail-xl.safetensors": "https://civitai.com/api/download/models/135867?type=Model&format=SafeTensor",
+        "Fant5yP0ny.safetensors": "https://civitai.com/api/download/models/522995?type=Model&format=SafeTensor",
+        "IncaseLycoXL.safetensors": "https://civitai.com/api/download/models/378950?type=Model&format=SafeTensor",
+        "furry.safetensors": "https://civitai.com/api/download/models/377141?type=Model&format=SafeTensor",
+        "xl_more_art-full_v1.safetensors": "https://civitai.com/api/download/models/152309?type=Model&format=SafeTensor",
         "Smooth_Anime2.safetensors": "https://civitai.com/api/download/models/333607?type=Model&format=SafeTensor"
     },
     "previous_default_models": []
