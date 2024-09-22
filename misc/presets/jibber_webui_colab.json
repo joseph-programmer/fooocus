@@ -1,5 +1,5 @@
 {
-    "default_model": "jibMixRealisticXL_v150MaximusFp32.safetensors",
+    "default_model": "juggernautXL_juggXIByRundiffusion.safetensors",
     "default_refiner": "None",
     "default_refiner_switch": 0.5,
     "default_loras": [
@@ -38,7 +38,7 @@
     ],
     "default_aspect_ratio": "1152*896",
     "checkpoint_downloads": {
-        "juggernautXL_juggXIByRundiffusion.safetensors": "https://civitai.com/api/download/models/839642?type=Model&format=SafeTensor&size=pruned&fp=fp16"
+        "juggernautXL_juggXIByRundiffusion.safetensors": "https://civitai.com/api/download/models/782002?type=Model&format=SafeTensor&size=full&fp=fp16"
     },
     "embeddings_downloads": {},
     "lora_downloads": {
