@@ -33,7 +33,7 @@ const default_checkpoints = [
         name: '기본 (Juggernaut XL)',
         type: '범용',
         model: 'https://civitai.com/models/133005/juggernaut-xl',
-        ipynb: 'default_webui_colab',
+        ipynb: 'juggernaut_xl_webui_colab',
         checkpoint: '',
         checkpoint_file: '',
         bakedVAE: true,
