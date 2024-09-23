@@ -45,7 +45,6 @@
         "add-detail-xl.safetensors": "https://civitai.com/api/download/models/135867?type=Model&format=SafeTensor",
         "Fant5yP0ny.safetensors": "https://civitai.com/api/download/models/522995?type=Model&format=SafeTensor",
         "IncaseLycoXL.safetensors": "https://civitai.com/api/download/models/378950?type=Model&format=SafeTensor",
-        "xl_more_art-full_v1.safetensors": "https://civitai.com/api/download/models/152309?type=Model&format=SafeTensor",
         "Smooth_Anime2.safetensors": "https://civitai.com/api/download/models/333607?type=Model&format=SafeTensor"
     },
     "previous_default_models": []
