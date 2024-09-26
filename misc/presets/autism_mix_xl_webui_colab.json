@@ -1,0 +1,52 @@
+{
+    "default_model": "autismmixSDXL_autismmixPony.safetensors",
+    "default_refiner": "None",
+    "default_refiner_switch": 0.5,
+    "default_loras": [
+        [
+            "None",
+            1.0
+        ],
+        [
+            "None",
+            1.0
+        ],
+        [
+            "None",
+            1.0
+        ],
+        [
+            "None",
+            1.0
+        ],
+        [
+            "None",
+            1.0
+        ]
+    ],
+    "default_cfg_scale": 7.0,
+    "default_sample_sharpness": 2.0,
+    "default_sampler": "dpmpp_2m_sde_gpu",
+    "default_scheduler": "karras",
+    "default_performance": "Speed",
+    "default_prompt": "1girl, ",
+    "default_prompt_negative": "pony",
+    "default_styles": [
+        "Fooocus Pony"
+    ],
+    "default_aspect_ratio": "896*1152",
+    "checkpoint_downloads": {
+        "autismmixSDXL_autismmixPony.safetensors": "https://civitai.com/api/download/models/324619?type=Model&format=SafeTensor&size=pruned&fp=fp16"
+    },
+    "embeddings_downloads": {},
+    "lora_downloads":             {
+        "Expressive_H-000001.safetensors": "https://civitai.com/api/download/models/382152?type=Model&format=SafeTensor",
+        "incase_style_v3-1_ponyxl_ilff.safetensors": "https://civitai.com/api/download/models/436219?type=Model&format=SafeTensor",
+        "add-detail-xl.safetensors": "https://civitai.com/api/download/models/135867?type=Model&format=SafeTensor",
+        "Fant5yP0ny.safetensors": "https://civitai.com/api/download/models/522995?type=Model&format=SafeTensor",
+        "IncaseLycoXL.safetensors": "https://civitai.com/api/download/models/378950?type=Model&format=SafeTensor",
+        "Smooth_Anime.safetensors": "https://civitai.com/api/download/models/298238?type=Model&format=SafeTensor",
+        "Smooth_Anime2.safetensors": "https://civitai.com/api/download/models/333607?type=Model&format=SafeTensor"
+    },
+    "previous_default_models": []
+}
